@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Bitter|Bree+Serif|Philosopher|Exo+2|Lobster|Pacifico|Trade+Winds&display=swap');
+
+
 body {
   padding-right:0%;
   margin: 0%;
   background-color:white;
   text-align: center;
-  font-family: 'Meriiweather' , serif;
+  font-family: 'Acme';
 
 }
 
@@ -16,6 +19,7 @@ body {
   LEFT:25%;
   margin-left: 20px;
   font-size: 5vw;
+  font-family: 'Lobster';
   display: inline-block;
 }
 .heading2 {
@@ -30,12 +34,13 @@ body {
 .heading4 {
   padding-top: 3%;
   padding-bottom: 3%;
+  font-family: 'Bitter';
   text-align: center;
   color: wheat;
 }
 
 .message{
-  font-family: 'Ubuntu',sans-serif;
+  font-family: 'Acme';
   font-size: 1.5vw;
 }
 
@@ -109,7 +114,7 @@ hr {
 .dev {
   padding: 0;
   margin:0 auto;
-  font-family: 'Sacramento',sans-serif;
+  font-family: 'Trade Winds';
   font-size:13vw;
   color: rgb(255, 255, 255);
 }
@@ -125,9 +130,8 @@ h2 {
 }
 
 .hi {
-  position: relative;
-  
-  top: 3vw;
+  position: static;
+  top: 1vw;
   font-family: 'Shadows Into Light', cursive;
   font-size: 7vw;
   padding-top: 15px;
@@ -142,10 +146,10 @@ p {
   }
 
 .subtitle {
-  font-size: 3vw;
-  display: inline;
-  position: relative;
-  bottom: 100px;
+  font-size: 2vw;
+  display: block;
+  position: static;
+  bottom: 800px;
 }
 .bio {
   background-color: #FFFFFF;
@@ -163,7 +167,7 @@ p {
 }
 
 .abbP {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Philosopher';
   font-size: 21px;
   color : gray;
 }
@@ -179,7 +183,7 @@ hr {
 }
 
 .abbp1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Bitter';
   
   color: #040404;
   text-align:left;
@@ -343,10 +347,12 @@ textarea {
   .heading{
     left: 0%;
     text-align: center;
-    font-size: 7.5vw;
+    font-family: 'Acme',sans-serif;
+    font-size: 7vw;
   }
  .heading2{
-   font-size:12vw;
+   font-size:10vw;
+   font-family: 'Acme',sans-serif;
    }
   .crd {
     padding: 3vh;
@@ -356,6 +362,7 @@ textarea {
     font-size: 12vw;
   }
   .message {
+    font-family: 'Acme';
     font-size: 5vw;
   }
   .r {
