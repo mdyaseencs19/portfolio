@@ -1,0 +1,183 @@
+.nav-wrapper{
+    background-color: #6D214F;
+    position: fixed;
+}
+
+.nav-wrapper .brand-logo{
+    font-family: 'Pacifico';
+    padding-left:15px;
+    margin: auto;
+    font-size: 2rem; 
+}
+
+@media (max-width: 544px) {  
+    .nav-wrapper .brand-logo {font-size:17px;} /*1rem = 16px*/
+}
+
+@media (max-width: 544px) {  
+    .sidenav {width: 190px;} /*1rem = 16px*/
+}
+
+.nav-wrapper ul li a{
+    font-size: 16px;
+    font-family: 'Bitter';
+}
+
+.nav-wrapper ul li a .fas{
+    font-size: 18px;
+}
+
+.nav-wrapper ul li a:hover{
+    background-color: rgb(56, 5, 36);
+    border-radius: 10px;
+}
+
+
+.sidenav li a{
+    font-family: 'Bitter';
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: #6D214F;
+}
+
+#md{
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    height: auto;
+}
+
+.fslider .slider .slides{
+    font-family: 'Bitter';
+    background: black;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)); /* The least supported option. */
+
+}
+
+.fslider .slider .slides li img{
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.card .card-image img{
+    padding: 15px;
+}
+
+
+.card{
+    border: 2px solid silver;
+    box-shadow: 5px 5px 6px solid;
+}
+
+.fcards h4{
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+}
+
+#progress{
+    background-color: rgb(175, 4, 104);
+    height: 6px;
+    width: 0;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+  
+.move{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.card .card-content span{ 
+    font-family: 'bitter';
+}
+
+.card .card-content{
+    border-top: 1px solid silver;
+}
+
+.card{
+    box-shadow: 1px 1px 3px silver,-1px 1px 3px silver,-1px 1px 3px silver,1px -1px 3px silver;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 12px silver,-10px -10px 12px silver,-10px 10px 12px silver,10px -10px 12px silver;
+    border: 2px solid grey;
+}
+
+.set {
+    position: relative;
+}
+
+.setH {
+    display: inline-block;
+    color: rgb(5, 82, 129);
+    font-family: 'Acme',sans-serif ;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 0;
+    position: absolute;
+    left: 20%;
+}
+
+.setR {
+    color: rgb(5, 82, 129);
+    display: inline-block;
+    font-family: 'Acme',sans-serif;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 0;
+    position: relative;
+    right:-62%;
+}
+
+input[type=submit]{
+    color: white;
+    outline: none;
+    font-family: 'Bitter';
+    cursor: pointer;
+}
+
+input[type=reset]{
+    color: white;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: 'Bitter';
+    cursor: pointer;
+}
+
+.fa-2x{
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+#twitter:hover{
+    color: #00acee;
+    background: rgb(82, 24, 59);
+    border-radius: 5px;
+}
+
+#linkedin:hover{
+    color: #0e76a8;
+    background: rgb(82, 24, 59);
+    border-radius: 5px;
+}
+
+#instagram:hover{
+    color: #F58529;
+    background: rgb(82, 24, 59);
+    border-radius: 5px;
+}
+
+#github:hover{
+    color: #fff;
+    background: rgb(82, 24, 59);
+    border-radius: 5px;
+}
+
