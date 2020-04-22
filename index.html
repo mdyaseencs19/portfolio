@@ -17,6 +17,20 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/5e7624f0eec7650c3321aa99/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
     <!-- Custom CSS -->    
     <link rel = "stylesheet" href = "css/style.css">
 
@@ -37,6 +51,7 @@
                 <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="#about" style = "scroll-behavior: inherit;"><i class="fas fa-info-circle" ></i> About</a></li>
                 <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+                <li><a href="#" onclick="toggleModal();"><i class="fas fa-project-diagram"></i> Projects</a></li>
             </ul>
             </div>
         </nav>        
@@ -45,6 +60,7 @@
         <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
         <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
         <li><a href="#contact"><i class="fas fa-phone-square"></i> Contact</a></li>
+        <li><a href="#" onclick="toggleModal();"><i class="fas fa-project-diagram"></i> Projects</a></li>
     </ul>
 
     <!-- Section: Slider -->
@@ -203,13 +219,13 @@
         </div>
     </section>
 
-    <!-- Sectio: Contact  -->
+    <!-- Section: Contact  -->
     <section id = "contact" class="contact section-contact scrollspy" style ="top: 0px;position: relative;background: rgb(250, 240, 240);margin-bottom: 0%;padding-top:30px;padding-bottom: 20px;box-shadow: 2px 2px 5px rgb(182, 181, 182),-2px -2px 5px rgb(182, 181, 182);">
         <div class="container" style = "border-radius: 50px">
             <div class="l10 m6 s12">
                 <h4 class = "center" style = "margin: auto;padding: auto;margin-bottom:2%;text-align:center;color:#6D214F;font-family:Merriweather;font-weight:bolder;">Contact Form</h4>
-                <div class="card-panel lighten-5">
-                    <h6 class = "" >Please fill out this form</h6>
+                <div class="card-panel lighten-5" style = "border-radius: 5px;">
+                    <h6 style = "font-family: Bitter;font-size: 20px;">Please fill out this form</h6>
                     <div class="input-field">
                         <input type="text" placeholder="Name" />
                     </div>
@@ -234,7 +250,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                    <h4 style = "margin-top: 2%;margin-bottom:2%;text-align:center;font-family:Merriweather;font-weight:bolder;">Let's Stay in Touch</h4>
+                    <h4 style = "margin-top: 2%;margin-bottom:2%;text-align:center;font-family:Merriweather;font-weight:bolder;">Let's Stay Connected</h4>
                     <a href = "https://twitter.com/MdYaseenAhmed1" class = "white-text">
                         <i class="fab fa-twitter fa-2x" id = "twitter"></i>
                     </a>           
@@ -250,6 +266,8 @@
                     <a href = "https://www.instagram.com/md_yaseen__ahmed" class = "white-text">
                         <i class="fab fa-instagram fa-2x" id = "instagram"></i>
                     </a>
+                    <h6 style = "padding-top: 25px;text-align:center;font-family:Merriweather;font-weight:bolder;">Phone: +91 9108735020 </h6>
+                    <h6 style = "padding-bottom:0;margin-bottom: 0;text-align:center;font-family:Merriweather;font-weight:bolder;">Email-Id: mdyaseenahmed1@gmail.com</h6>
                 </div>
             </div>
         </div>
@@ -270,7 +288,6 @@
         </div>
     </section>      
 </body>
-
     <!-- Progress JS -->
     <script src = "js/progress.js"></script>
 
