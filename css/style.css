@@ -137,6 +137,11 @@
     right:-62%;
 }
 
+@media (max-width: 544px) {  
+    .setH .setR {font-size:17px;} /*1rem = 16px*/
+}
+
+
 input[type=submit]{
     color: white;
     outline: none;
