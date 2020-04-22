@@ -119,7 +119,7 @@
     display: inline-block;
     color: rgb(5, 82, 129);
     font-family: 'Acme',sans-serif ;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 1%;
     margin-bottom: 0;
     position: absolute;
@@ -130,17 +130,12 @@
     color: rgb(5, 82, 129);
     display: inline-block;
     font-family: 'Acme',sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     margin-top: 1%;
     margin-bottom: 0;
     position: relative;
-    right:-62%;
+    right:-60%;
 }
-
-@media (max-width: 544px) {  
-    .setH .setR {font-size:17px;} /*1rem = 16px*/
-}
-
 
 input[type=submit]{
     color: white;
